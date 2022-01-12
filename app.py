@@ -9,7 +9,6 @@ Example:
 import sys
 import fire
 import questionary
-import csv
 from pathlib import Path
 
 from qualifier.utils.fileio import load_csv
@@ -86,7 +85,7 @@ def find_qualifying_loans(bank_data, credit_score, debt, income, loan, home_valu
 
     # Calculate the monthly debt ratio
     monthly_debt_ratio = calculate_monthly_debt_ratio(debt, income)
-    print(f"The monthly debt to income ratio is {monthly_debt_ratio:.02f}.")
+    print(f"The monthly debt to income ratio is {monthly_debt_ratio:.02f}")
 
     # Calculate loan to value ratio
     loan_to_value_ratio = calculate_loan_to_value_ratio(loan, home_value)
@@ -98,7 +97,7 @@ def find_qualifying_loans(bank_data, credit_score, debt, income, loan, home_valu
     bank_data_filtered = filter_debt_to_income(monthly_debt_ratio, bank_data_filtered)
     bank_data_filtered = filter_loan_to_value(loan_to_value_ratio, bank_data_filtered)
 
-    print(f"Found {len(bank_data_filtered)} qualifying loans.")
+    print(f"Found {len(bank_data_filtered)} qualifying loans")
 
     return bank_data_filtered
 
@@ -109,19 +108,15 @@ def save_qualifying_loans(qualifying_loans):
     Args:
         qualifying_loans (list of lists): The qualifying bank loans.
     """
-    # @TODO: Complete the usability dialog for savings the CSV Files.
-    #usabilitycode here
+    # @TODO: Complete the usability dialog for saving the CSV Files.
+    confirmation = questionary.confirm("Would you like to save these qualified loans to a CSV file?").ask()
+    if confirmation:
+        file_path = questionary.text("Where would you like to save this CSV file?").ask()
+        print(f"No problem, a CSV file has been created and saved in {file_path}.")
+    else:
+        print("A CSV file will not be created.")
 
-def save_csv():
-    #User dialog here
 
-    header = ['Max Loan Size', 'Minimum Credit Score', 'Maximum Debt to Income Ratio', 'Maximum Loan to Value Ratio']
-    csvpath = Path('qualifying_banks.csv')
-    with open(csvpath, 'w', newline='') as csv file:
-        csvwriter = csv.writer(csvfile)
-        csvwriter.writerow(header)
-        for bank_data in bank_data_filtered:
-            csvwriter.writerow(row.values(bank_data_filtered))
 
 
 

@@ -63,7 +63,7 @@ The app.py is a Python script written in Visual Studio Code which houses the mai
 
 The README.md file is an overview of the application.
 
-The first portion of the app.py script imports the necessary dependencies (libraries and modules) for this application to run.
+The first portion of the app.py script imports the necessary dependencies (libraries, packages and modules) for this application to execute.
 
 ```
 import sys

@@ -50,6 +50,8 @@ qualifier/filters
 qualifier/utils
 app.py
 README.md
+license.txt
+terminal_history.txt
 ```
 The data/ directory contains a CSV file that shows qualifying loan data parameters for each Bank listed
 

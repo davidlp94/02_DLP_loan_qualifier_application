@@ -11,7 +11,7 @@ The following technology/software was used for this application:
 
 -Python 3.7.11 (Programming language)
 
-    Imported Python Libraries:
+    Imported Python Libraries/Packages:
   
     -sys
     
@@ -20,6 +20,8 @@ The following technology/software was used for this application:
     -questionary
     
     -Path from pathlib
+    
+    -csv
     
 -Visual Studio Code v1.63.2 (Script writing software)
 

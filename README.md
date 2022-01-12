@@ -200,7 +200,7 @@ def save_qualifying_loans(qualifying_loans):
 
 run():
 
-Finally, the last function is the mainframe of this application, which takes the above defined functions and is ran when this pyton script is executed in a terminal. To make sure all CLIs are executed properly, we need to call the Python Fire package which accepts the name of the function we would like to run, in this case is 'run'.
+Finally, the last function is the mainframe of this application, which takes the above defined functions and is ran when this python script is executed in a terminal. To make sure all CLIs are executed properly, we need to call the Python Fire package which accepts the name of the function we would like to run, in this case is 'run'.
 
 ```
 def run():
@@ -233,7 +233,9 @@ if __name__ == "__main__":
 David Lee Ping
 
 email: davidleeping@gmail.com
+
 Phone: 570.269.5973
+
 LinkedIn: TBD
 
 ---

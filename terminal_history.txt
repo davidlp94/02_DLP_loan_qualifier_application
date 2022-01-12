@@ -1,0 +1,50 @@
+  459  cd "C:\Users\dlpst\OneDrive\Documents\UC_Berkeley_Blockchain_Bootcamp\GitHub\loan_qualifier_application_02_DLP"
+  460  python app.py 
+  461  python app.py 
+  462  python app.py 
+  463  python app.py 
+  464  exit
+  465  cd "C:\Users\dlpst\OneDrive\Documents\UC_Berkeley_Blockchain_Bootcamp\GitHub\loan_qualifier_application_02_DLP"
+  466  python app.py 
+  467  python app.py 
+  468  python app.py 
+  469  python app.py 
+  470  python app.py 
+  471  python app.py 
+  472  python app.py 
+  473  python app.py 
+  474  python app.py 
+  475  python app.py 
+  476  python app.py 
+  477  python app.py 
+  478  python app.py 
+  479  python app.py 
+  480  python app.py 
+  481  python app.py 
+  482  cd "C:\Users\dlpst\OneDrive\Documents\UC_Berkeley_Blockchain_Bootcamp\GitHub\loan_qualifier_application_02_DLP"
+  483  git status
+  484  git add app.py
+  485  git commit -m 'Commiting final app.py code with CLI interface'
+  486  git push
+  487  git log
+  488  clear
+  489  exit
+  490  cd "C:\Users\dlpst\OneDrive\Documents\UC_Berkeley_Blockchain_Bootcamp\GitHub\loan_qualifier_application_02_DLP"
+  491  python app.py 
+  492  python app.py 
+  493  python app.py 
+  494  clear
+  495  clear
+  496  clear
+  497  python app.py 
+  498  thank you
+  499  clear
+  500  exit
+  501  cd "C:\Users\dlpst\OneDrive\Documents\UC_Berkeley_Blockchain_Bootcamp\GitHub\loan_qualifier_application_02_DLP"
+  502  python app.py 
+  503  git status
+  504  git add app.py
+  505  git commit -m 'Final Python script commit to upload into GitHub for review.'
+  506  git push
+  507  git status
+  508  history 50 > terminal_history.txt

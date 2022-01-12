@@ -1,17 +1,3 @@
-  459  cd "C:\Users\dlpst\OneDrive\Documents\UC_Berkeley_Blockchain_Bootcamp\GitHub\loan_qualifier_application_02_DLP"
-  460  python app.py 
-  461  python app.py 
-  462  python app.py 
-  463  python app.py 
-  464  exit
-  465  cd "C:\Users\dlpst\OneDrive\Documents\UC_Berkeley_Blockchain_Bootcamp\GitHub\loan_qualifier_application_02_DLP"
-  466  python app.py 
-  467  python app.py 
-  468  python app.py 
-  469  python app.py 
-  470  python app.py 
-  471  python app.py 
-  472  python app.py 
   473  python app.py 
   474  python app.py 
   475  python app.py 
@@ -48,3 +34,17 @@
   506  git push
   507  git status
   508  history 50 > terminal_history.txt
+  509  git status
+  510  git add terminal_history.txt
+  511  git commit -m 'Pushing generated terminal_history.txt file to GitHub.'
+  512  git push
+  513  cd
+  514  python --version
+  515  git --version
+  516  clear
+  517  cd "C:\Users\dlpst\OneDrive\Documents\UC_Berkeley_Blockchain_Bootcamp\GitHub\loan_qualifier_application_02_DLP"
+  518  git status
+  519  git add license.txt
+  520  git commit -m 'Adding an MIT license.txt file to repository'
+  521  git push
+  522  history 50 > terminal_history.txt

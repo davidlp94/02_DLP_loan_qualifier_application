@@ -236,7 +236,7 @@ email: davidleeping@gmail.com
 
 Phone: 570.269.5973
 
-LinkedIn: TBD
+LinkedIn: https://www.linkedin.com/in/david-lee-ping/
 
 ---
 

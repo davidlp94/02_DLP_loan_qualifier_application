@@ -2,6 +2,7 @@
 
 Hello and welcome to my Loan Qualifier Application project! This project is about helping individuals seek financial loans from qualified banks using the information provided at the time of application. The reason why this project hhas been created is to mitigate the problem of unneccessary loan applications that may hurt an individual's credit score. When using this Loan Qualifier Application project, you are able to narrow down a list of banks that you are qualified to apply for; hence reducing the amount of applications needed to find the right bank and loan for your need! This application also allows the user to save the qualifying loans to a CSV file that can be shared as a spreadsheet. Please see below for more information on how this application works.
 
+Live application link: https://github.com/davidlp94/02_DLP_loan_qualifier_application/blob/main/app.py
 ---
 
 ## Technologies
